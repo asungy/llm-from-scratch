@@ -27,7 +27,9 @@ classifiers = [
 dependencies = []
 
 [project.optional-dependencies]
-dev = []
+dev = [
+  "jupyter"
+]
 
 [project.scripts]
 llm = "llm.entrypoint:main"
