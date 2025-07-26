@@ -28,7 +28,9 @@ dependencies = []
 
 [project.optional-dependencies]
 dev = [
-  "jupyter"
+  "jupyter",
+  "helix-jupyter-thing",
+  "python-lsp-server",
 ]
 
 [project.scripts]
